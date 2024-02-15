@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPInventory", "WPInventory\WPInventory.csproj", "{D54342B1-8F17-423A-8FC5-5DF9BFBDECDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPInventory.Data", "WPInventory.Data\WPInventory.Data.csproj", "{C583FDED-47F5-4C65-89CF-84E958B46F83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPInventory.Worker", "WPInventory.Worker\WPInventory.Worker.csproj", "{C952B2AC-E45A-42A5-90C7-555C0D6A14A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllTests", "AllTests\AllTests.csproj", "{01712808-5715-4AB3-AB77-8A077DEC1C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPInventory.BL.Searching", "WPInventory.BL.Searching\WPInventory.BL.Searching.csproj", "{FA7694E9-ECC2-497F-B749-B8026D3D7B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPInventory.BL", "WPInventory.BL\WPInventory.BL.csproj", "{45BF6B74-AA73-41E9-8D07-2481DAE3FBC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54342B1-8F17-423A-8FC5-5DF9BFBDECDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54342B1-8F17-423A-8FC5-5DF9BFBDECDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54342B1-8F17-423A-8FC5-5DF9BFBDECDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54342B1-8F17-423A-8FC5-5DF9BFBDECDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C583FDED-47F5-4C65-89CF-84E958B46F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C583FDED-47F5-4C65-89CF-84E958B46F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C583FDED-47F5-4C65-89CF-84E958B46F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C583FDED-47F5-4C65-89CF-84E958B46F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C952B2AC-E45A-42A5-90C7-555C0D6A14A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C952B2AC-E45A-42A5-90C7-555C0D6A14A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C952B2AC-E45A-42A5-90C7-555C0D6A14A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C952B2AC-E45A-42A5-90C7-555C0D6A14A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01712808-5715-4AB3-AB77-8A077DEC1C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01712808-5715-4AB3-AB77-8A077DEC1C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01712808-5715-4AB3-AB77-8A077DEC1C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01712808-5715-4AB3-AB77-8A077DEC1C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7694E9-ECC2-497F-B749-B8026D3D7B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7694E9-ECC2-497F-B749-B8026D3D7B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7694E9-ECC2-497F-B749-B8026D3D7B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7694E9-ECC2-497F-B749-B8026D3D7B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BF6B74-AA73-41E9-8D07-2481DAE3FBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BF6B74-AA73-41E9-8D07-2481DAE3FBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BF6B74-AA73-41E9-8D07-2481DAE3FBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BF6B74-AA73-41E9-8D07-2481DAE3FBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2917B797-B25E-4868-BCFB-F3BC60231857}
+	EndGlobalSection
+EndGlobal

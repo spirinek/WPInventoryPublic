@@ -1,0 +1,198 @@
+﻿body {
+    margin-top: 0;
+}
+
+.error_item {
+    margin-bottom: 5px;
+}
+
+    .error_item i {
+        margin-right: 5px;
+    }
+
+.errMsg_wrapper {
+    padding: 20px 0;
+    display: table-cell;
+    vertical-align: bottom;
+    height: auto;
+}
+
+.login-wrapper .login-header {
+    position: relative;
+    background: #2919d1 url('../img/blue-back.jpg');
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 183px;
+    text-align: center;
+    
+}
+
+    .login-wrapper .login-header .logo-wrapper .logo {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        right: 50%;
+        bottom: -1px;
+        width: 300px;
+        margin-left: -150px;
+        background: none;
+        padding: 30px;
+        color: #ffffff;
+        vertical-align: bottom;
+        font-size: 50px;
+    }
+
+@media (min-width: 1366px) {
+    .login-wrapper .login-header .logo-wrapper .logo {
+        width: 600px;
+        margin-left: -300px;
+        background: none;
+        padding: 50px 40px 50px 50px;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 1366px) {
+    .login-wrapper .login-header {
+        height: 363px;
+    }
+}
+
+.login-wrapper .signUpBtn {
+    color: #000;
+}
+
+.login-wrapper .login-page {
+    display: block;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: auto;
+    padding: 0px 20px;
+}
+
+@media (min-width: 768px) {
+    .login-wrapper .login-page {
+        display: flex;
+    }
+}
+
+.login-wrapper .login-page .login-box {
+    margin: auto;
+    padding: 20px 0;
+    width: auto;
+}
+
+    .login-wrapper .login-page .login-box h1 {
+        margin: 50px 0 20px 0;
+        font-size: 30px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .login-wrapper .login-page .login-box .password {
+        margin: 10px 0;
+    }
+
+    .login-wrapper .login-page .login-box .el-input-group__append, .login-wrapper .login-page .login-box .el-input-group__prepend {
+        background-color: #fff;
+    }
+
+    .login-wrapper .login-page .login-box .el-input__inner {
+        line-height: 44px;
+        height: 45px;
+    }
+
+    .login-wrapper .login-page .login-box .footer-text {
+        margin-top: 100px;
+        text-align: center;
+        color: #7F8188;
+        font-size: 9pt;
+        line-height: 20px;
+    }
+
+@media (min-width: 768px) {
+    .login-wrapper .login-page .login-box {
+        width: 400px;
+    }
+}
+
+.login-wrapper .login-page .card .body {
+    font-size: 14px;
+    color: #555;
+}
+
+    .login-wrapper .login-page .card .body .msg {
+        color: #555;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .login-wrapper .login-page .card .body .el-form-item__label {
+        margin-bottom: 0;
+    }
+
+    .login-wrapper .login-page .card .body .errMsg {
+        text-align: center;
+        color: black;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    .login-wrapper .login-page .card .body a {
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    .login-wrapper .login-page .card .body .right {
+        float: right;
+    }
+
+@media (min-width: 768px) {
+    .login-wrapper .login-page {
+        padding: 0;
+    }
+}
+
+.el-input-group__prepend {
+    background-color: #fff;
+}
+
+.el-input-group__append {
+    background-color: #fff;
+}
+
+.signUpBtn {
+    padding-top: 2px;
+}
+
+    .signUpBtn i {
+        font-size: 16px;
+        margin-right: 6px;
+        font-weight: bold;
+        margin-top: 0px;
+        position: relative;
+        top: 2px;
+        display: inline-block;
+    }
+
+.password {
+    margin: 10px 0;
+}
+
+.remember-box {
+    margin: 0;
+}
+
+.errMsg {
+    color: #eb5757;
+    font-size: 10pt;
+}
+
+.sign-in {
+    margin-top: 40px;
+    width: 100%;
+}

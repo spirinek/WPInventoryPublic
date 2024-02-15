@@ -1,0 +1,22 @@
+.authentication_wrapper_main {
+    background: #102a43;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .authentication_wrapper {
+    height: 80vh;
+  }
+  .login {
+    background:white;
+  }
+  .login_logo{
+      color: white;
+  }
+  .login_form .el-card__header{
+      color:black;
+      text-align: center;
+  }

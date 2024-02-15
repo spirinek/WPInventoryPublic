@@ -1,0 +1,63 @@
+.el-menu-item {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  
+  .el-menu-item:hover i {
+    color: #5085f5;
+  }
+  
+  .el-menu-vertical .is-active {
+    background: #e9ecf3;
+    color: rgb(112, 111, 111);
+  }
+  
+  .el-menu-vertical .is-active:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #5185f5;
+  }
+  
+  .el-menu-vertical .is-active i, .el-menu-vertical  .is-active .el-tooltip i {
+    color: #5085f5;
+  }
+  
+  .el-menu-vertical:not(.el-menu--collapse) {
+    width: 200px;
+  }
+  
+  .el-aside {
+    min-height: 100vh;
+    position: static;
+  }
+  .el-menu-wrapper{
+    position: fixed;
+  }
+  .el-aside.CollapsedAside{
+    width: 63px;
+  }
+  .el-aside.NonCollapsedAside{
+    width:200px;
+  }
+  .el-menu i {
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+    padding-right: 5px;
+  }
+  
+  .el-menu .el-menu-item {
+    font-size: 14px;
+  }
+  
+  .el-menu {
+    border-right: 0 !important;
+  }
+  
+  .logo {
+    border-bottom: 1px solid #acacac;
+  }
